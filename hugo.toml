@@ -1,0 +1,24 @@
+baseURL = 'https://melhindi.github.io'
+languageCode = 'en-us'
+title = "Muhammad El-Hindi's Website"
+
+disableKinds = ["taxonomy", ]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true # default is false
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = true
+        errorLevel = 'warning' # ignore (default), warning, or error (fails the build)
+
+[module]
+  [[module.imports]]
+    path = "github.com/clente/hugo-bearcub"
+
+[build]
+  writeStats = true
