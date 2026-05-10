@@ -1,0 +1,117 @@
+<style>
+  body {
+    font-size: 18px;
+    max-width: 900px;
+  }
+
+  .home-intro {
+    align-items: center;
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 10rem 1fr;
+    margin: 1.5rem 0 2.25rem;
+  }
+
+  .home-intro p {
+    margin: 0.35rem 0;
+  }
+
+  .portrait {
+    aspect-ratio: 1;
+    border: 1px solid #3a3f4b;
+    border-radius: 999px;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    width: 10rem;
+  }
+
+  .role {
+    color: #eee;
+    font-weight: 700;
+  }
+
+  .home-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1.1rem;
+  }
+
+  .home-links a {
+    align-items: center;
+    border: 1px solid #3a3f4b;
+    border-radius: 4px;
+    display: inline-flex;
+    height: 2rem;
+    justify-content: center;
+    padding: 0;
+    text-decoration: none;
+    width: 2rem;
+  }
+
+  .home-links a:hover,
+  .home-links a:focus {
+    border-color: #8cc2dd;
+  }
+
+  .home-links svg {
+    fill: none;
+    height: 1.15rem;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+    width: 1.15rem;
+  }
+
+  main h2 {
+    border-bottom: 1px solid #3a3f4b;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+  }
+
+  main table {
+    border: 0;
+    margin: 0 0 2rem;
+  }
+
+  main thead {
+    display: none;
+  }
+
+  main tr {
+    display: grid;
+    gap: 0.25rem 1rem;
+    grid-template-columns: 11rem 1fr;
+    margin-bottom: 1rem;
+  }
+
+  main td {
+    border: 0;
+    padding: 0;
+    vertical-align: top;
+  }
+
+  main td:first-child {
+    color: #9da7b3;
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 560px) {
+    .home-intro {
+      align-items: start;
+      grid-template-columns: 6rem 1fr;
+    }
+
+    .portrait {
+      width: 6rem;
+    }
+
+    main tr {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

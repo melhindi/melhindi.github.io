@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ with .Site.Params.home }}
+<section class="home-intro">
+  {{ with .portrait }}
+  <img class="portrait" src="{{ . }}" alt="Portrait of {{ $.Site.Params.author.name }}" />
+  {{ end }}
+  <div>
+    {{ with .role }}<p class="role">{{ . }}</p>{{ end }}
+    {{ with .intro }}<p>{{ . }}</p>{{ end }}
+    {{ with .links }}
+    <div class="home-links">
+      {{ range . }}
+      <a href="{{ .url }}" aria-label="{{ .name }}" title="{{ .name }}">
+        {{ partial "icon.html" .icon }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+<content>
+  {{ .Content }}
+</content>
+{{ end }}

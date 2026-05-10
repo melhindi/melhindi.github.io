@@ -1,8 +1,41 @@
 baseURL = 'https://melhindi.github.io'
 languageCode = 'en-us'
-title = "Muhammad El-Hindi's Website"
+title = "Muhammad El-Hindi"
+copyright = "Muhammad El-Hindi"
 
-disableKinds = ["taxonomy", ]
+[params]
+  description = "Personal academic website of Muhammad El-Hindi."
+  title = "Muhammad El-Hindi"
+  dateFormat = "2006-01-02"
+  madeWith = "Made with [Hugo](https://gohugo.io/) and [Bear Cub](https://github.com/clente/hugo-bearcub)."
+  [params.home]
+    portrait = "/images/melhindi.jpg"
+    role = "Post-Doctoral Researcher at Technische Universität München"
+    intro = "My research focuses on secure, cloud-native data systems, with an emphasis on designing high-performance, cost-efficient services. I am broadly interested in robust distributed system design, including techniques such as formal verification, determinstic simulation testing, performance benchmarking etc."
+    [[params.home.links]]
+      name = "Email"
+      url = "mailto:muhammad.el-hindi@tum.de"
+      icon = "email"
+    [[params.home.links]]
+      name = "Google Scholar"
+      url = "https://scholar.google.com/citations?user=0U6OV0AAAAAJ"
+      icon = "scholar"
+    [[params.home.links]]
+      name = "GitHub"
+      url = "https://github.com/melhindi"
+      icon = "github"
+  [params.author]
+    name = "Muhammad El-Hindi"
+
+[menus]
+  [[menus.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 10
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/posts"
+    weight = 20
 
 [markup]
   [markup.goldmark]
@@ -13,7 +46,7 @@ disableKinds = ["taxonomy", ]
         block = true # default is false
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = true
+        useEmbedded = 'fallback'
         errorLevel = 'warning' # ignore (default), warning, or error (fails the build)
 
 [module]
@@ -22,3 +55,7 @@ disableKinds = ["taxonomy", ]
 
 [build]
   writeStats = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

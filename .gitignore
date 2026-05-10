@@ -4,6 +4,9 @@ exampleSite/resources/_gen/
 exampleSite/assets/jsconfig.json
 exampleSite/hugo_stats.json
 
+.codex
+.agents
+
 # Created by https://www.toptal.com/developers/gitignore/api/go,git,vim,hugo,node,linux,macos,windows,visualstudiocode,direnv
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,git,vim,hugo,node,linux,macos,windows,visualstudiocode,direnv
 
