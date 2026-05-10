@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Publications by Muhammad El-Hindi."
+description: "Conference, journal, and upcoming publications by Muhammad El-Hindi on secure cloud data systems, trustworthy data sharing, databases, and distributed systems."
 layout: "publication-list"
 ---
 

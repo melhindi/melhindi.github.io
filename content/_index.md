@@ -1,6 +1,6 @@
 ---
 title: "MEH"
-description: "Personal academic website of Muhammad El-Hindi."
+description: "Muhammad El-Hindi is a post-doctoral researcher at Technische Universität München working on secure cloud data systems, trustworthy data sharing, and distributed data management."
 ---
 
 ## Research Interests
@@ -9,7 +9,7 @@ description: "Personal academic website of Muhammad El-Hindi."
 - Trustworthy data sharing
 - Confidential computing
 - Distributed systems and data management
-- Distributed query processing on mondern hardware (accelerators, networks, storage) 
+- Distributed query processing on modern hardware (accelerators, networks, storage)
 
 ## Academic Positions
 

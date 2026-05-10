@@ -1,17 +1,19 @@
-baseURL = 'https://melhindi.github.io'
+baseURL = 'https://muhammad.el-hindi.de'
 languageCode = 'en-us'
 title = "Muhammad El-Hindi"
 copyright = "Muhammad El-Hindi"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Personal academic website of Muhammad El-Hindi."
+  description = "Personal academic website of Muhammad El-Hindi, post-doctoral researcher at Technische Universität München working on secure cloud data systems."
   title = "Muhammad El-Hindi"
   dateFormat = "2006-01-02"
   madeWith = "Made with [Hugo](https://gohugo.io/) and [Bear Cub](https://github.com/clente/hugo-bearcub)."
   [params.home]
     portrait = "/images/melhindi.jpg"
     role = "Post-Doctoral Researcher at Technische Universität München"
-    intro = "My research focuses on secure, cloud-native data systems, with an emphasis on designing high-performance, cost-efficient services. I am broadly interested in robust distributed system design, including techniques such as formal verification, determinstic simulation testing, performance benchmarking etc."
+    intro = "My research focuses on secure, cloud-native data systems, with an emphasis on designing high-performance, cost-efficient services. I am broadly interested in robust distributed system design, including techniques such as formal verification, deterministic simulation testing, and performance benchmarking."
     [[params.home.links]]
       name = "Email"
       url = "mailto:muhammad.el-hindi@tum.de"
