@@ -8,11 +8,11 @@ layout: "publication-list"
 
 | Year | Article |
 | --- | --- |
-| 2027 | **The Bi-Channel Networking Paradigm for Database Systems in the Cloud**<br>Georg Kreuzmayr, Muhammad El-Hindi, Benjamin Wagner, Tobias Ziegler, and Viktor Leis. Under submission. EDBT.|
+| 2027 | **[The Bi-Channel Networking Paradigm for Database Systems in the Cloud](https://arxiv.org/abs/2606.19969)**<br>Georg Kreuzmayr, Muhammad El-Hindi, Benjamin Wagner, Tobias Ziegler, and Viktor Leis. Under submission. EDBT.|
 | 2026 | **[High-Performance DBMSs with io_uring: When and How to use it](https://arxiv.org/abs/2512.04859)**<br>Matthias Jasny, Muhammad El-Hindi, Tobias Ziegler, Viktor Leis, and Carsten Binnig  |
 | 2026 | **[PystachIO: Efficient Distributed GPU Query Processing with PyTorch over Fast Networks & Fast Storage](https://arxiv.org/abs/2512.02862)**<br>Jigao Luo, Nils Boeschen, Muhammad El-Hindi, and Carsten Binnig. |
 | 2026 | **[Redbench: Workload Synthesis From Cloud Traces](https://arxiv.org/abs/2511.13059)**<br>Johannes Wehrstein, Roman Heinrich, Mihail Stoian, Skander Krid, Martin Stemmer, Andreas Kipf, Carsten Binnig, and Muhammad El-Hindi. CoRR abs/2511.13059. |
-| 2026 | **[ScaleEvict: Altruistic Eviction for RDMA-enabled Distributed Storage Engines](https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/ScaleEvict_DaMoN2026.pdf)**<br>Till Steinert, Muhammad El-Hindi, Tobias Ziegler, Viktor Leis, and Carsten Binnig. DaMoN, ACM. |
+| 2026 | **[ScaleEvict: Altruistic Eviction for RDMA-enabled Distributed Storage Engines](https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/ScaleEvict_DaMoN2026.pdf)** (&#127942; Best Paper Award)<br>Till Steinert, Muhammad El-Hindi, Tobias Ziegler, Viktor Leis, and Carsten Binnig. DaMoN, ACM. |
 | 2026 | **How to Make Secure Storage Fast for DBMSs in Intel SGXv2**<br>Adrian Lutsch, Christian Franck, Muhammad El-Hindi, Norman May, Zsolt István, and Carsten Binnig. DaMoN, ACM. |
 | 2026 | **[Cloud Analytics Benchmarking: Where We Are, What Is Missing, and Where We Should Go](https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/dbtest26-cameraready.pdf)**<br>Michail Georgoulakis Misegiannis, Till Steinert, Viktor Leis, and Muhammad El-Hindi. DBTest. |
 
