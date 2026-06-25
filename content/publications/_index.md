@@ -9,6 +9,7 @@ layout: "publication-list"
 | Year | Article |
 | --- | --- |
 | 2027 | **[The Bi-Channel Networking Paradigm for Database Systems in the Cloud](https://arxiv.org/abs/2606.19969)**<br>Georg Kreuzmayr, Muhammad El-Hindi, Benjamin Wagner, Tobias Ziegler, and Viktor Leis. EDBT. |
+| 2026 | **[BtrLog: Low-Latency Logging for Cloud Database Systems](https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/btrlog.pdf)**<br>Maximilian Kuschewski, Lam-Duy Nguyen, Matthias Jasny, Tobias Ziegler, Viktor Leis, Muhammad El-Hindi. VLDB. |
 | 2026 | **[High-Performance DBMSs with io_uring: When and How to use it](https://arxiv.org/abs/2512.04859)**<br>Matthias Jasny, Muhammad El-Hindi, Tobias Ziegler, Viktor Leis, and Carsten Binnig. VLDB. |
 | 2026 | **[PystachIO: Efficient Distributed GPU Query Processing with PyTorch over Fast Networks & Fast Storage](https://arxiv.org/abs/2512.02862)**<br>Jigao Luo, Nils Boeschen, Muhammad El-Hindi, and Carsten Binnig. VLDB. |
 | 2026 | **[Redbench: Workload Synthesis From Cloud Traces](https://arxiv.org/abs/2511.13059)**<br>Johannes Wehrstein, Roman Heinrich, Mihail Stoian, Skander Krid, Martin Stemmer, Andreas Kipf, Carsten Binnig, and Muhammad El-Hindi. VLDB. |
